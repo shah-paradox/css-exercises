@@ -1,0 +1,16 @@
+.oddP{
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#green{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+#large{
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+}
