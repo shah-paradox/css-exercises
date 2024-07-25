@@ -8,16 +8,19 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
+
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+/* small-para swapped with para because they both have same specificity so therefore the last one defined is given priority */
+.small-para {    
+  font-size: 14px;
+  font-weight: 800;
+}
+/* .confirm changed to #confirm-button */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,13 +32,13 @@ body {
   font-size: 20px;
 }
 
-.child {
+div .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
-
-div.text {
+/* div.text change to .div.text bcz rules brah */
+div {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
